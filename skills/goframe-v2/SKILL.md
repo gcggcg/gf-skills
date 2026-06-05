@@ -1,6 +1,6 @@
 ---
 name: goframe-v2
-description: GoFrame development skill. TRIGGER when writing/modifying Go files, implementing services, creating APIs, or database operations. DO NOT TRIGGER for frontend/shell scripts.
+description: "GoFrame v2 development skill. Use only when the target Go project uses or is explicitly adopting GoFrame v2: the nearest go.mod requires github.com/gogf/gf/v2, existing Go files import github.com/gogf/gf/v2 or any github.com/gogf/gf/v2/... component package, or the user asks to scaffold, migrate, or build with GoFrame. Trigger for GoFrame-backed Go work such as APIs/controllers/services, middleware, routing/config, ORM/DAO/DO/entity/database operations, gf CLI/codegen, HTTP/gRPC services, and microservice conventions. Do not trigger for generic Go projects without GoFrame evidence, frontend-only work, shell scripts, or unrelated infrastructure tasks."
 license: Apache-2.0
 ---
 
