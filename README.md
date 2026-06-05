@@ -13,7 +13,7 @@ GoFrame Skills is an AI skill set tailored for the GoFrame framework, designed t
 ## Installation
 
 ```bash
-npx skills add github.com/gogf/skills
+npx skills add github.com/gogf/skills -g
 ```
 
 ## Check Updates
